@@ -1,0 +1,84 @@
+body {
+  font-family: 'Baloo 2', sans-serif;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header-div {
+  padding: 24px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  background-color: #7747CA;
+  color: #fff;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+main {
+  margin-top: 100px;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #7747CA;
+}
+
+section > h3 {
+  text-align: center;
+}
+
+strong {
+  color: #7040CA;
+  font-weight: 800;
+}
+
+footer {
+  background-color: #e4dfda;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  font-size: 12px;
+}
+
+/* Media query for tablet size */
+@media screen and (min-width: 768px) {
+  #first-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  #whatsapp-photo {
+    width: 30%;
+  }
+
+  main {
+    padding: 24px 64px;
+  }
+}
+
+/* Media query for desktop size */
+@media screen and (min-width: 1200px) {
+  main {
+    font-size: 20px;
+  }
+}
